@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-03 00:08+0300\n"
+"PO-Revision-Date: 2017-04-02 21:13+0000\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.7.6\n"
+
+#: forms.py:10 models.py:19
+msgid "postal code"
+msgstr "Поштовий індекс"
+
+#: models.py:12
+msgid "first name"
+msgstr "ім'я"
+
+#: models.py:14
+msgid "last name"
+msgstr "прізвище"
+
+#: models.py:16
+msgid "e-mail"
+msgstr "ел. пошта"
+
+#: models.py:17
+msgid "address"
+msgstr "адреса"
+
+#: models.py:21
+msgid "city"
+msgstr "місто"
+
+#: templates/orders/order/create.html:4 templates/orders/order/create.html:7
+msgid "Checkout"
+msgstr "Оформити замовлення"
+
+#: templates/orders/order/create.html:10
+msgid "Your order"
+msgstr "Ваше замовлення"
+
+#: templates/orders/order/create.html:20
+#, python-format
+msgid ""
+"\n"
+"                    \"%(code)s\" (%(discount)s%% off)\n"
+"                    "
+msgstr ""
+"\n"
+"\"%(code)s\" (%(discount)s%% Знижки)"
+
+#: templates/orders/order/create.html:27
+msgid "Total"
+msgstr "Загалом"
+
+#: templates/orders/order/create.html:32
+msgid "Place order"
+msgstr "Зробити замовлення"
+
+#: templates/orders/order/created.html:5 templates/orders/order/created.html:8
+msgid "Thank you"
+msgstr "Дякуемо"
+
+#: templates/orders/order/created.html:9
+msgid "Your order has been successfully completed. Your order number is "
+msgstr "Ваше замовлення було успішно завершено. Ваш номер замовлення "
+
+#: urls.py:9
+msgid "^create/$"
+msgstr "^створити/$"

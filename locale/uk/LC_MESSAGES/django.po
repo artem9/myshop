@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-02 23:36+0300\n"
+"PO-Revision-Date: 2017-04-02 20:42+0000\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.7.6\n"
+
+#: coupons/forms.py:6
+msgid "Coupon"
+msgstr "Купон"
+
+#: myshop/settings.py:103
+msgid "English"
+msgstr "Англійська"
+
+#: myshop/settings.py:104
+msgid "Russian"
+msgstr "Російська"
+
+#: myshop/settings.py:105
+msgid "Ukrainian"
+msgstr "Українська"
+
+#: myshop/settings.py:106
+msgid "Spanish"
+msgstr "Іспанська"
+
+#: myshop/urls.py:26
+msgid "^cart/"
+msgstr "^кошик/"
+
+#: myshop/urls.py:27
+msgid "^orders/"
+msgstr "^замовлення/"
+
+#: myshop/urls.py:29
+msgid "^payment/"
+msgstr "^оплата/"
+
+#: myshop/urls.py:30
+msgid "^coupons/"
+msgstr "^купони/"
+
+#: payment/templates/payment/canceled.html:4
+msgid "Your payment has not been processed"
+msgstr "Ваш платіж не було оброблено"
+
+#: payment/templates/payment/canceled.html:5
+msgid "There was a problem processing your payment"
+msgstr "Виникла проблема обробки платежу"
+
+#: payment/templates/payment/done.html:4
+msgid "Your payment was successful"
+msgstr "Ваш платіж був успішним"
+
+#: payment/templates/payment/done.html:5
+msgid "Your payment has been successfully received"
+msgstr "Ваш платіж був успішно отриманий"
+
+#: payment/templates/payment/process.html:3
+#: payment/templates/payment/process.html:6
+msgid "Pay using PayPal"
+msgstr "Оплатити за допомогою PayPal"
+
+#: payment/urls.py:9
+msgid "^process/$"
+msgstr "^процес/$"
+
+#: payment/urls.py:10
+msgid "^done/$"
+msgstr "^зроблено/$"
+
+#: payment/urls.py:11
+msgid "^canceled/$"
+msgstr "^скасований/$"
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html.py:12
+msgid "My shop"
+msgstr "Мій магазин"
+
+#: shop/templates/shop/base.html:18
+msgid "Language"
+msgstr "Мова"
+
+#: shop/templates/shop/base.html:34
+msgid "Your cart"
+msgstr "Ваш кошик"
+
+#: shop/templates/shop/base.html:36
+#, python-format
+msgid ""
+"\n"
+"                                %(total_items)s item%(total_items_plural)s,\n"
+"                                $%(total_price)s\n"
+"                            "
+msgstr ""
+"\n"
+"%(total_items)s Товар(ів), на суму $%(total_price)s"
+
+#: shop/templates/shop/base.html:42
+msgid "Your cart is empty"
+msgstr "Ваш кошик порожній"
+
+#: shop/templates/shop/product/detail.html:18
+msgid "Add to cart"
+msgstr "Додати в кошик"
+
+#: shop/templates/shop/product/detail.html:23
+msgid "People who bought this also bought"
+msgstr "Люди, які купили цей також купили"
+
+#: shop/templates/shop/product/list.html:6
+#: shop/templates/shop/product/list.html:24
+msgid "Products"
+msgstr "Продукти"
+
+#: shop/templates/shop/product/list.html:11
+msgid "Categories"
+msgstr "Категорії"
+
+#: shop/templates/shop/product/list.html:14
+msgid "All"
+msgstr "Всі"
